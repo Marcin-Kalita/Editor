@@ -2,12 +2,87 @@
 
 @import "_variables";
 @import "modules/hello.scss";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: #757575;
+}
+
+.header {
+  position: absolute;
+  width: 244px;
+  height: 71px;
+  left: 352px;
+  top: 89px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 64px; 
+  
   display: flex;
   align-items: center;
+  
+  color: #000000; 
+&__textaera {
+  position: absolute;
+  margin-top: 10px;
+  width: 550px;
+  height: 317px;
+  left: 352px;
+  top: 180px;
+
+  background: #2f3547;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 10px;
+  
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+}
+&__button-load {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  
+  position: absolute;
+  width: 100px;
+  height: 32px;
+  left: 640px;
+  top: 522px;
+  
+  background: #121232;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #fefefe;
+  font-family: Open Sans;
+  font-style: normal;
+  
+  }
+  &__button-save {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  position: absolute;
+  width: 100px;
+  height: 32px;
+  left: 800px;
+  top: 522px;
+  
+  background: #fefefe;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #121232;
+  font-family: Open Sans;
+  font-style: normal;
+  }
 }
