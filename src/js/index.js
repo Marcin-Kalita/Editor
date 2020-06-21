@@ -22,5 +22,5 @@ const myResult = localStorage.getItem('entry');
 console.log(myResult);
 
 loadButton.addEventListener ('click', () => {
-    const loadButton = ('entry');
+    entryInput.value = localStorage.getItem ('entry');
 })
