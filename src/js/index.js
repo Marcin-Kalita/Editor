@@ -17,10 +17,6 @@ button.addEventListener ('click', () => {
     localStorage.setItem ('entry', entryInput.value);
 })
 
-const myResult = localStorage.getItem('entry');
-
-console.log(myResult);
-
 loadButton.addEventListener ('click', () => {
     entryInput.value = localStorage.getItem ('entry');
 })

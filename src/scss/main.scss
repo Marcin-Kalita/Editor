@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #757575;
 }
 
@@ -24,7 +27,7 @@ body {
   display: flex;
   align-items: center;
   
-  color: #000000; 
+  color: #5f5c5c; 
 &__textaera {
   position: absolute;
   margin-top: 10px;
