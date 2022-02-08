@@ -1,18 +1,10 @@
 ![cover](./gh/database.jpg)
+# Your Editor!
 
-# WTF Webpack Starter Kit 
-
-Simple toolkit for your static websites development.
-
+A simple application for saving a text document
 ## How to use it?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+Write any text document and save it "save", at this point the data will be saved. 
+When you come back to the page by pressing the "load" button your text document will be launched
 
-## Available scripts
-
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
 
